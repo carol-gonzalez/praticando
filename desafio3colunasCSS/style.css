@@ -1,0 +1,106 @@
+#coluna1 {
+    background-color: hsl(31, 77%, 52%);
+    float: left;
+    width: 200px;
+    height: 350px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#coluna2 {
+    background-color: hsl(184, 100%, 22%);
+    float: left;
+    width: 200px;
+    height: 350px;
+}
+
+#coluna3 {
+    background-color: hsl(179, 100%, 13%);
+    float: left;
+    width: 200px;
+    height: 350px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body {
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: Big Shoulders Display, sans-serif;
+  color: hsl(0, 0%, 95%);
+  height: 700; 
+}
+
+p {
+  font-family: Lexend Deca, sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  height: 400;
+}
+
+div {
+  padding: 40px 40px;
+}
+
+#botao1 {
+  font-family: Lexend Deca, sans-serif; 
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  height: 40px;
+  line-height: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: hsl(0, 0%, 95%);
+}
+
+#botao1:hover {
+  background: hsl(31, 100%, 69%);
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0, 2);
+  text-shadow: none;
+}
+
+#botao2 {
+  font-family: Lexend Deca, sans-serif; 
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  height: 40px;
+  line-height: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: hsl(0, 0%, 95%);
+}
+
+#botao2:hover {
+  background: hsl(184, 99%, 41%);
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0, 2);
+  text-shadow: none;
+}
+
+#botao3 {
+  font-family: Lexend Deca, sans-serif; 
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  height: 40px;
+  line-height: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: hsl(0, 0%, 95%);
+}
+
+#botao3:hover {
+  background: hsl(160, 46%, 38%);
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0, 2);
+  text-shadow: none;
+}
+
+#colunas {
+  position: relative;
+  margin-left: 175px;
+  margin-right: auto;
+  margin-top: 50px;
+}
